@@ -2209,3 +2209,18 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+.skill {
+  color: white; /* Applies white text color to the entire section */
+}
+
+.skill .title-wrapper h5, .skill .title-wrapper data, .skill .skill-description {
+  color: white; /* Ensures white text color for these specific elements */
+}
+
+.skill .skill-progress-bg {
+  background-color: #333; /* Optional: to ensure the progress bar background contrasts well */
+}
+
+.skill .skill-progress-fill {
+  background-color: #4caf50; /* Optional: to give a distinct color to the progress fill */
+}
